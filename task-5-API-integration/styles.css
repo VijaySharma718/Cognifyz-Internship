@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#data-container {
+    margin-top: 20px;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
