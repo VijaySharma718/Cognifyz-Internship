@@ -1,0 +1,56 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #ffdd00;
+  padding: 15px;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .container h1 {
+  color: #00395a;
+}
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: #00395a;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #003856;
+  color: white;
+  text-align: center;
+  height: 70vh;
+}
+.hero .btn {
+  background: white;
+  color: #003856;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

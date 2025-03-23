@@ -1,0 +1,74 @@
+// Variables
+$primary-color: #ffdd00;
+$secondary-color: #003856;
+$font-stack: "Arial", sans-serif;
+$padding: 15px;
+
+// Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// General Styles
+body {
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+}
+
+// Navbar
+.navbar {
+    background: $primary-color;
+    padding: $padding;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1{
+            color: #00395a;
+        }
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+
+        li a {
+            text-decoration: none;
+            color: #00395a;
+            font-weight: bold;
+        }
+    }
+}
+
+// Hero Section
+.hero {
+    @include flex-center;
+    flex-direction: column;
+    background: $secondary-color;
+    color: white;
+    text-align: center;
+    height: 70vh;
+
+    .btn {
+        background: white;
+        color: $secondary-color;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+}
+
+// Footer
+.footer {
+    text-align: center;
+    padding: $padding;
+    background: #222;
+    color: white;
+}
